@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AxB Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <link rel="icon" href="reshot-icon-weather-8CKJB9YN7X.svg">
+    <script src="https://kit.fontawesome.com/f44f93d20f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <img id="logo" class="header-logo" src="reshot-icon-weather-8CKJB9YN7X.svg" alt="Weather Logo" width="80px">
+        <h1 id="title" class="title">ABxWeather</h1>
+    </nav>
+
+    <section id="weather-section" class="weather-section">
+        <div class="search-form">
+            <input id="search-bar" type="text" class="search-bar" placeholder="E.g., Melbourne, Tokyo, London...">
+        <button id="search-btn" class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div id="container" class="container">
+            <div class="current-weather-pic">
+                <div id="current-weather" class="current-weather">
+                    <h1>__°C</h1>
+                    <h4>Wind: __km/h</h4>
+                    <h4>Humidity: __%</h4>
+                    <h3 class="date">______</h3>
+                    <h3 class="place">_____</h3>
+                </div>
+    
+                <div id="current-weather-logo" class="current-weather-logo">
+                    <img src="" alt="weather-condition" width="150px">
+                    <h3></h3>
+                </div>
+            </div>
+
+            <h1 class="weekly-title">5 Days Forecast</h1>
+
+            <div class="container-forecasts-5">
+                <ul id="weekly-weather" class="weekly-weather">
+
+                    <li class="weekly">
+                        <h1 class="weekly-date">_______</h1>
+                        <h1 class="temperature">__°C</h1>
+                        <h4>Wind: ___ km/h</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="weekly">
+                        <h1 class="weekly-date">_______</h1>
+                        <h1 class="temperature">__°C</h1>
+                        <h4>Wind: ___ km/h</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="weekly">
+                        <h1 class="weekly-date">_______</h1>
+                        <h1 class="temperature">__°C</h1>
+                        <h4>Wind: ___ km/h</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="weekly">
+                        <h1 class="weekly-date">_______</h1>
+                        <h1 class="temperature">__°C</h1>
+                        <h4>Wind: ___ km/h</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="weekly">
+                        <h1 class="weekly-date">_______</h1>
+                        <h1 class="temperature">__°C</h1>
+                        <h4>Wind: ___ km/h</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
